@@ -1,0 +1,38 @@
+.input-component {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    align-items: center;
+    margin: 4px;
+}
+
+.input-component p {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bolder;
+    font-size: 16pt;
+    margin-right: 2px;
+    margin-left: 1px;
+}
+
+.input-component label {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 13pt;
+    margin-right: 8px;
+}
+
+.input-component input {
+    width: 150px;
+    padding: 5px;
+    font-size: 16pt;
+    border-width: 3px;
+    border-color: #c0c0c0;
+    background-color: #fafafa;
+    color: #000000;
+    border-style: inset;
+    border-radius: 10px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bolder;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+}

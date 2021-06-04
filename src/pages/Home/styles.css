@@ -1,0 +1,11 @@
+#page-home {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    height: 100vh;
+    width: 100vw;
+}
+
+.content * {
+    margin: 8px;
+}

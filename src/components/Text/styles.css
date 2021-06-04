@@ -1,0 +1,12 @@
+.component-text {
+    width: fit-content;
+    height: fit-content;
+    margin: 4px;
+}
+
+.text {
+    color: black;
+    font-size: 19pt;
+    font-weight: bolder;
+    font-family: 'Roboto Mono', monospace;
+}

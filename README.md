@@ -1,46 +1,36 @@
-# Getting Started with Create React App
+# frontend-react-typescript-zenvia
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Conteúdos
 
-## Available Scripts
+- [Sobre](#about)
+- [Começando](#getting_started)
+- [Como usar](#usage)
 
-In the project directory, you can run:
+## Sobre👨‍🏫 <a name = "about"></a>
 
-### `yarn start`
+A solução para o teste do [Caixa eletrônico](https://dojopuzzles.com/problems/caixa-eletronico/) foi o uso de uma API RESTful utilizando princípios S.O.L.I.D adaptados para a dinâmica do ambiente Typescript, e altamente escalavel, em conjunto com o frontend em react que simula um caixa eletronico, feito em react.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Começando ✔ <a name = "getting_started"></a>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Antes de iniciar, a API possui algumas bibliotecas, para instalá-las recomenda-se o uso do [Yarn](https://classic.yarnpkg.com/lang/en/), porém pode-se usar o npm também.
 
-### `yarn test`
+### Pré-requisitos 📝
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| Requisito | Versão  | 
+| ------- | --- |
+| Node.js | 14.0.0^ |
+| Yarn** | 1.x |
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ **Opcional
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Para instalá-los usa-se: ```$yarn``` ou ```$npm i```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Como usar 🛠 <a name = "usage"></a>
 
-### `yarn eject`
+Após instalar as bibliotecas e frameworks nescessarios, verifique se a URL da API está de acordo em ./src/services/api.ts, e então execute a API, caso não tenha executado (para saber mais sobre o backend acesse: [https://github.com/L-Akira/zenvia-backend](https://github.com/L-Akira/zenvia-backend)).
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Feito isso execute ```$npm start ``` ou ```$yarn start``` para executar a aplicação, que por padrão estará em [http://localhost:3000](http://localhost:3000), a partir disso abra seu navegador no link citado (é recomendado o uso do Chrome).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
